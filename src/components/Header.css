@@ -1,0 +1,57 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 7vh;
+    margin-top: 1vh;
+    position: sticky;
+    top: 0;
+    z-index: 100; /*so nothing can be behind the header*/
+    background-color: white;
+}
+
+.header > div {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.header__logo {
+    height: 25px;
+}
+
+.header__left > .header__menu-icon {
+    margin-right: 5%;
+}
+
+.header__input {
+    width: 30%;
+    height: 70% !important;
+
+    border: 1px solid lightgray;
+
+    justify-content: space-between;
+}
+
+.header__input > input{
+    width: 80%;
+    height: 100%;
+    border: none;
+    padding: 0;
+}
+
+.header__input > input::selection{
+    border: none;
+}
+
+.header__search-icon {
+    width: 20% !important;
+    height: 100% !important;
+    background-color: #fafafa;
+    border-left: 1px solid lightgray;
+    color:gray;
+}
+
+.header__icons > * {
+    margin-right: 1vw;
+}
