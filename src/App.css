@@ -1,0 +1,12 @@
+.App {
+    width: 95vw;
+}
+
+.App {
+    margin: 0 auto;
+}
+
+.App > main {
+    display: flex;
+    margin-top: 5vh;
+}

@@ -1,8 +1,9 @@
 .header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     height: 7vh;
+    width: 100%;
     margin-top: 1vh;
     position: sticky;
     top: 0;
@@ -16,15 +17,15 @@
     height: 100%;
 }
 
-.header__logo {
+.header .logo {
     height: 25px;
 }
 
-.header__left > .header__menu-icon {
-    margin-right: 5%;
+.header .left > .menu-icon {
+    margin-right: 13%;
 }
 
-.header__input {
+.header .input {
     width: 30%;
     height: 70% !important;
 
@@ -33,18 +34,14 @@
     justify-content: space-between;
 }
 
-.header__input > input{
+.header .input > input{
     width: 80%;
     height: 100%;
     border: none;
     padding: 0;
 }
 
-.header__input > input::selection{
-    border: none;
-}
-
-.header__search-icon {
+.header .search-icon {
     width: 20% !important;
     height: 100% !important;
     background-color: #fafafa;
@@ -52,6 +49,6 @@
     color:gray;
 }
 
-.header__icons > * {
+.header .icons > * {
     margin-right: 1vw;
 }
