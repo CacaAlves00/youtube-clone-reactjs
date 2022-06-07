@@ -12,7 +12,7 @@ function Header() {
     <header className='header'>
       <div className='left'>
 
-        <MenuIcon className='menu-icon'/>
+        <MenuIcon className='menu-icon icon'/>
 
         <img
           className='logo'
@@ -23,17 +23,18 @@ function Header() {
 
       <div className='input'>
         <input type='text' placeholder='Search'/>
-        <SearchIcon className='search-icon' />
+        <SearchIcon className='search-icon icon' />
       </div>
 
       <div className='icons'>
-        <VideoCallIcon />
-        <AppsIcon />
-        <NotificationsIcon />
+        <VideoCallIcon className='icon' />
+        <AppsIcon className='icon' />
+        <NotificationsIcon className='icon' />
 
         <Avatar
           alt='Avatar picture'
           src='https://yt3.ggpht.com/IQ7IbVqRyT5ab3JE_wAD33HVRYkDSl9-nbp75rkn6j8mbF7nwwoVEYH54P-Qj-VltshH1UEIsCQ=s88-c-k-c0x00ffffff-no-rj-mo'
+          className='icon'
         />
       </div>
     </header>

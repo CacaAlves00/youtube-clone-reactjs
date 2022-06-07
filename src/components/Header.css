@@ -11,6 +11,10 @@
     background-color: white;
 }
 
+.header .icon {
+    cursor: pointer;
+}
+
 .header > div {
     display: flex;
     align-items: center;
@@ -35,14 +39,14 @@
 }
 
 .header .input > input{
-    width: 80%;
+    width: 84%;
     height: 100%;
     border: none;
     padding: 0;
 }
 
 .header .search-icon {
-    width: 20% !important;
+    width: 16% !important;
     height: 100% !important;
     background-color: #fafafa;
     border-left: 1px solid lightgray;

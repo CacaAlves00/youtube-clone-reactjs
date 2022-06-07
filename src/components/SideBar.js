@@ -5,7 +5,6 @@ import SideBarRow from './SideBarRow'
 
 function SideBar() {
     const sideBarIcons = useSideBarIcons()
-    console.log(sideBarIcons.Home)
   
     return (
     <div className='side-bar'>
